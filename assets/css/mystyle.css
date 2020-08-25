@@ -1,0 +1,742 @@
+body {
+  margin: 0;
+  position: relative;
+  background-color: #fafafa;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+}
+
+
+
+
+.main-header {
+  z-index: 3;
+  background: #fff;
+}
+
+.header-btn {
+  background: #187be0;;
+  padding: 20px 11px;
+  min-width: 120px;
+  position: relative;
+}
+.header-btn:hover {
+  background: rgb(65, 147, 185);
+
+}
+
+.header-btn::before {
+  background: none;
+
+}
+@media screen and (min-width: 1280px){
+.nav__logo {
+    left: 0;
+}
+}
+.logo-white {
+  background-image: url(image/1.png);
+}
+.logo {
+  background-image: url(image/1.png);
+  background-size: 100% 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: block;
+  height: 46px;
+  width: 170px;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s,-webkit-transform .3s;
+}
+
+.main-header .main-menu ul li a {
+  color: black;
+  font-weight: 400;
+  padding: 39px 19px;
+  font-weight: 400;
+  display: block;
+  font-size: 12px;
+  -webkit-transition: all .3s ease-out 0s;
+  -moz-transition: all .3s ease-out 0s;
+  -ms-transition: all .3s ease-out 0s;
+  -o-transition: all .3s ease-out 0s;
+  transition: all .3s ease-out 0s;
+  text-transform: uppercase;
+
+
+}
+.header-sticky.sticky-bar.sticky .main-menu ul>li>a {
+  padding: 26px 20px;
+  color: black;
+}
+
+
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 250px;
+  
+}
+
+
+@media only screen and (max-width: 400px) and (min-width: 200px){
+  .carousel-caption {
+  
+  
+  margin-bottom: 150px;
+   text-align: center;
+  }
+    
+  }
+
+  @media only screen and (max-width: 200px) and (min-width: 50px){
+    .carousel-caption {
+    
+     font-size: 10px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     text-align: center;
+   
+    }
+      
+    }
+
+
+    @media only screen and (max-width: 800px) and (min-width: 400px){
+      .carousel-caption{
+      
+       font-size: 10px;
+       margin-bottom: 100px;
+       margin-top: 10px;
+       text-align: center;
+     
+      }
+        
+      }
+      @media only screen and (max-width: 800px) and (min-width: 400px){
+        .carousel-caption h1{
+        
+         font-size: 20px;
+         margin-bottom: 20px;
+         text-align: center;
+        }
+          
+        }
+      
+
+
+.one{
+  background-image:linear-gradient(to bottom,
+  rgb(47 6 6 / 37%), rgb(23 25 23 / 68%)),
+  url(image/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+
+}
+
+.two{
+  background-image: linear-gradient(to bottom,
+  rgb(47 6 6 / 37%), rgb(23 25 23 / 68%)),
+  url(image/campaign-creators-gMsnXqILjp4-unsplash.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+
+}
+.three{
+  background-image: linear-gradient(to bottom,
+  rgb(47 6 6 / 37%), rgb(23 25 23 / 68%)),
+  url(image/annie-spratt-QckxruozjRg-unsplash.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+
+}
+
+
+@media screen and (max-width: 455px){
+  .headone {
+    font-size: 25px;
+  }
+  }
+  
+@media screen and (max-width: 250px){
+  .headone {
+    font-size: 15px;
+  }
+  }
+  
+  
+
+  @media only screen and (max-width: 1400px) and (min-width: 455px){
+    .headone {
+      font-size: 50px;
+    }
+    }
+
+
+
+
+.header-sticky.sticky-bar.sticky .main-menu ul>li>a {
+    padding: 26px 20px;
+    color: #2b4b80;
+}
+
+
+
+
+.imgbtn{
+  background-color: #245ebf;
+  height: 38px;
+  max-width: 100%;
+}
+
+.imgbtn:hover{
+  background-color:#1fa9e4;
+ 
+}
+
+@media screen and (max-width: 768px){
+.imgbtn {
+    max-width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+  .row p{
+    font-family: "Poppins",sans-serif;
+    color: #2b4b80;
+    margin: 20px 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    margin-bottom: 50px;
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo-row h1{
+  
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.testimonial-item img{
+  height: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#tesimonial{
+  background-color: rgb(253, 253, 253);
+  text-align: center;
+}
+
+.section-padding{
+  padding: 0px;
+}
+
+.img-thumb{
+  text-align: center;
+  margin: 0px;
+  width: 50%;
+}
+
+.img-thumb img{
+  /* width: inherit!important; */
+  /* width: 150px!important;
+  border-radius: 50%; */
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin: auto;
+
+
+}
+
+
+@media only screen and (max-width: 770px) and (min-width: 570px){
+  .card{
+  
+   min-width: 100%;
+   text-align: center;
+   margin: 0px;
+  }
+    
+  }
+
+
+
+
+
+
+
+
+.content{
+margin-top: 50px;
+
+}
+
+
+
+#btn2{
+
+color: #2b4b80;
+
+}
+
+
+
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offer{
+  background-image:
+  linear-gradient(to bottom,rgb(132 177 156 / 85%), rgb(126 64 158 / 0%)),
+  url(image/pexels-johannes-plenio-1103970.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+
+}
+
+  #text-justify{
+    color:#fff;
+    text-align: center;
+    
+  }
+  
+.how-works h1{
+
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+  .nav-tabs .nav-item {
+    text-align: center;
+    width: 25%;
+    color: black;
+  }
+
+  .nav-tabs .nav-link {
+    border: 1px solid #ffffff;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+  
+  .nav-tabs .nav-item:hover {
+     color: #000;
+  }
+  .nav-item{
+    background-color: white;
+  }
+ 
+ 
+
+
+  .nav-link:hover, .navbar a:hover {
+    background-color: whitesmoke;
+    box-shadow: 0px 15px 20px rgba(164, 192, 181, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    background-color: whitesmoke;
+    border-color: #e2e6de4d #dee6e0f5 #fff;
+}
+#nav-tabContent{
+  padding-top:50px;
+}
+
+.no-gutters{
+  padding-top:20px;
+ 
+  
+}
+
+.no-gutters:hover + .offer-content-link-more{
+  display: block;
+
+
+}
+.no-gutters img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  height: 25%;
+  transition: all 0.3s;
+  display: block;
+  transform: scale(1);
+}
+.no-gutters:hover {  
+  transform: scale(1.0);
+  background-color:white;
+  
+}
+
+.no-gutters:hover img{  
+  transform: scale(1.3);
+}
+
+
+.card-title,.card-text {
+  text-align: left;
+}
+.mt-4 .col-12{
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+
+ 
+}
+
+.hvr-icon-wobble-horizontal{
+  display: block;
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #2b4b80;
+  
+}
+
+.hvr-icon-wobble-horizontal i{
+  position: relative;
+  font-size: 15px;
+  animation-duration: 2s;
+  color: rgb(43, 75, 128);
+
+  
+}
+a:hover{
+  color: initial;
+}
+
+
+
+
+
+.card-img-top {
+ 
+   border:2px solid #fff;
+   box-shadow: 0px 6px 5px #ccc;
+}
+  
+/*  card cr*/
+.cr:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+
+  }
+
+
+.cr:hover img{
+   transform: translateY(10px);
+   transition-duration: 1s;
+}
+
+
+
+/* team slider footer */
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e4e7e800;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.item:hover .overlay {
+  height: 100%;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text p{
+  
+    font-family: "Poppins",sans-serif;
+    color: #5fdad4;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+
+}
+
+.footer-item img{
+  height: 350px;
+
+}
+.fab:hover {
+  color: rgb(40, 199, 204);
+}
+.icon-f {
+  color: #000;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 130px;
+}
+
+.icon-f i {
+  background-color: blanchedalmond;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      @media only screen and (max-width: 375px) and (min-width: 50px){
+        .heading-1 {
+          margin:auto;
+          width: 100%;
+          font-size: 15px;
+          
+        }
+          
+        }
+
+        @media only screen and (max-width: 575px) and (min-width: 376px){
+          .heading-1 {
+            margin:auto;
+            width: 100%;
+            font-size: 25px;
+            
+          }
+            
+          }
+
+
+        @media only screen and (max-width: 375px) and (min-width: 50px){
+          .logo-row h1 {
+            margin:auto;
+            width: 100%;
+            font-size: 25px;
+            
+          }
+            
+          }
+
+        @media only screen and (max-width: 375px) and (min-width: 50px){
+          .how-works h1,.section-padding h1 {
+            margin:auto;
+            width: 100%;
+            font-size: 20px;
+            
+          }
+            
+          }
+          @media only screen and (max-width: 375px) and (min-width: 50px){
+            .no-gutters img{
+              margin:auto;
+              width: 100px;
+              height: 100px;
+              
+              
+            }
+
+         
+              
+            }
+            @media only screen and (max-width: 575px) and (min-width: 50px){
+              .card-title, .card-text{
+              text-align: center;
+                
+                
+              }
+                
+              }
+
+              @media only screen and (max-width: 375px) and (min-width: 50px){
+                .card-title {
+                 
+                  font-size: 25px;
+                  
+                }
+                  
+                }
+        
+                @media only screen and (max-width: 575px) and (min-width: 376px){
+                  .card-title {
+                  
+                    font-size: 20px;
+                    
+                  }
+                    
+                  }
+        
+
+
+
+
+          @media only screen and (max-width: 455px) and (min-width: 374px){
+            .how-works h1,.section-padding h2, .card-title, .card-text,.logo-row h1,.heading-1{
+             
+             text-align: center;
+              
+            }
+          }
+
+            @media only screen and (max-width: 455px) and (min-width: 374px){
+              .no-gutters img{
+               
+               margin:auto;
+               width: 150px;
+               height: 150px;
+               font-size: 35px;
+              }
+              }
+
+              @media only screen and (max-width: 455px) and (min-width: 374px){
+                .card-body h5 {
+                 
+                 margin:auto;          
+                 font-size: 35px;
+                }
+                  
+                }
+  
+
+
+
+  
+  
+  
+
+
+
+/* customer question */
+.lf{
+  background-image:url(image/4.png);
+  
+  /* linear-gradient(to top, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to right, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to bottom, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to left, #eb3136, white 7px, transparent 7px);  */
+    /* linear-gradient(to bottom,rgb(249 249 249 / 85%), rgb(25 100 -18 / 2%)), */
+  width: 100%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+
+}
+.question_lebel{
+  height: 500px;
+}
+
+/* customer question end */
+
+.form-control {
+  width: 100%;
+  margin-bottom:10px ;
+}
+
